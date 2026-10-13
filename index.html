@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reminders</title>
+  </head>
+  <body>
+    <main>
+      <h1>Reminders</h1>
+      <form id="add-form">
+        <input id="title" placeholder="What do you need to remember?" required />
+        <input id="due" type="datetime-local" />
+        <button type="submit">Add</button>
+      </form>
+      <p id="status"></p>
+      <ul id="list"></ul>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
